@@ -21,10 +21,20 @@
  .intro {
  text-align : center;
  }
- .about-grid {
- display : grid;
- grid-template-columns: 50% 50%;
- }
+
+.about-grid {
+	 display : grid;
+	 grid-template-columns: 50% 50%;
+  }
+  
+ @media (max-width: 480px) {  
+	 .about-grid {
+	 display : grid;
+	 grid-template-columns: 100%;
+	  } 
+
+  
+ } 
  .i-am, .i-like {
  text-align: center;
  text-decoration: none;
@@ -33,3 +43,42 @@
  list-style:none;
  padding: 0;
  }
+ 
+ .projects-heading {
+ text-align: center;
+ }
+ 
+ .projects-grid {
+ display : grid;
+ grid-template-columns: 50% 50%;
+ }
+ 
+ .project-image {
+justify-self: center;
+padding: 5%; 
+ }
+ 
+ @media (max-width: 600px) {  
+  .projects-grid {	
+	grid-template-columns: 100%;
+	}
+ }
+ 
+ .links-and-contactlist {
+	 display : grid;
+	 grid-template-columns: 30% 70%;
+ }
+.links {
+	justify-self: center;
+} 
+.link-list {
+	list-style: none;
+	padding: 0;
+}
+
+@media (max-width: 600px) { 
+.links-and-contactlist {
+	 /* display : grid; */
+	 grid-template-columns: 100%;
+ }
+}
