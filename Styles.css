@@ -1,0 +1,127 @@
+ .quote {
+   font-style : bold;
+   color : black;
+   font-size : 25px;
+ }
+ #MyId {
+   color : Green;
+   font-style : bold;
+ 
+ }
+ .grid-table {
+	display:grid;
+	grid-template-rows : auto auto;
+	grid-template-columns : auto auto auto;
+ }
+ 
+ .container {
+	max-width:900px;
+	margin: 0 auto;
+ } 
+ .intro {
+ text-align : center;
+ }
+
+ .my-name {
+ position: relative;
+ left: 30px;
+ border: 2px solid #73AD21;
+ }
+ 
+ .my-prof {
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:300px;
+	border: 2px solid #A3AD21;
+ }
+ 
+ 
+ .my-name:hover {
+ background-color: yellow;
+ }
+.about-grid {
+	 display : grid;
+	 grid-template-columns: 50% 50%;
+  }
+  
+ @media (max-width: 480px) {  
+	 .about-grid {
+	 display : grid;
+	 grid-template-columns: 100%;
+	  } 
+
+  
+ } 
+ .i-am, .i-like {
+ text-align: center;
+ text-decoration: none;
+ }
+ .about-list {
+ list-style:none;
+ padding: 0;
+ }
+ 
+ .projects-heading {
+ text-align: center;
+ }
+ 
+ .projects-grid {
+ display : grid;
+ grid-template-columns: 50% 50%;
+ }
+ 
+ .project-image {
+justify-self: center;
+padding: 5%; 
+filter: grayscale(90%);
+ }
+ 
+ @media (max-width: 600px) {  
+  .projects-grid {	
+	grid-template-columns: 100%;
+	}
+ }
+ 
+ .links-and-contactlist {
+	 display : grid;
+	 grid-template-columns: 30% 70%;
+ }
+.links {
+	justify-self: center;
+} 
+.link-list {
+	list-style: none;
+	padding: 0;
+}
+
+@media (max-width: 600px) { 
+.links-and-contactlist {
+	 /* display : grid; */
+	 grid-template-columns: 100%;
+ }
+}
+
+.profile-picture {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	
+	box-shadow: 0 4px 6px 0 #888FFF; 
+	transition: all ease-in-out 1s;	
+}
+
+.profile-picture:hover {
+	box-shadow: 0 8px 12px 0 #888F00;
+}
+
+.sepah-name {
+  position:relative;
+  left:0;
+ }
+ 
+ .body {
+  background-color: #caebf2;
+ }
+ 
+ 
